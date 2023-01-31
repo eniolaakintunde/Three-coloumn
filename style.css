@@ -1,0 +1,93 @@
+-Bright orange  hsl(31, 77%, 52%)
+
+## Typography
+
+### Body Copy
+
+
+- font size : 15px
+
+
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400,  700*/
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+h1{
+    text-transform: uppercase;
+}
+h2{
+    text-transform: uppercase;
+}
+h3{
+    text-transform: uppercase;
+}
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+body {
+    font-family: "Lexanda Deca", sans-serif;
+    font-size: 15px;
+    background: hsl(0, 0%, 95%);
+    min-height: 100vh;
+
+}
+container{
+
+    max-width: 1320px;
+    margin: auto;
+    height: 100vh;
+    
+}
+
+.wrapper{
+    
+    height: 60rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    margin: 0 32px;
+}
+
+
+.container1{
+    background-color:hsl(31, 77%, 52%);
+    padding: 2rem;
+    margin: auto;
+    width: auto;
+    border-radius: 20px;
+    flex-direction: row;
+    
+
+    
+}
+.container2{
+    background-color:hsl(184, 100%, 22%);
+    padding: 2rem;
+    margin: auto;
+    width: auto;
+    border-radius: 20px;
+    flex-direction: row;
+
+    
+}
+.container3{
+    background-color:hsl(179, 100%, 13%);
+    padding: 2rem;
+    margin: auto;
+    width: auto;
+    border-radius: 20px;
+    flex-direction: row;
+
+    
+}
+
